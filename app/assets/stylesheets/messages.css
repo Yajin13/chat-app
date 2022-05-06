@@ -37,6 +37,10 @@
   overflow: scroll;
 }
 
+.rooms::-webkit-scrollbar{
+  display: none;
+}
+
 .room {
   padding: 20px 0 40px;
 }
